@@ -84,11 +84,15 @@ h3 {
 }
 @media only screen and (max-width: 414px) {
   .container {
-    width: 390px;
-    height: 692px;
+    width: 350px;
+    height: 750px;
+  }
+  h1, h2, h3 {
+    font-size: 45px;
   }
   #display {
-    margin-left: 12.2%;
+    margin-top: 18%;
+    margin-left: 7%;
   }
   .buttons{
     margin-top: 22%;
