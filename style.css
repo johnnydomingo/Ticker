@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #0B192E;
+  /* background: #ffcdb2; */
+  /* background: linear-gradient(45deg, #480ca8, #7209b7, #b5179e, #f72585); */
+  height: 100vh;
+}
+
+.container {
+  width: 600px;
+  margin-top: 1%;
+  height: 670px;
+  background-color: rgba(60, 61, 63, 0.6);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1, h2, h3{
+  margin-top: 8%;
+  font-size: 50px;
+  padding: 8px;
+}
+h1,h2 {
+  color: #CDD7F5;
+}
+h3 {
+  color: #5EEDCE;
+}
+.stopwatch{
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #CDD7F5;
+}
+#display{
+  margin-top: 6%;
+  margin-left: 25%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #64FFDA;
+  box-shadow: 1px 1px 2px rgba(60, 61, 63. 0.6);
+}
+#display span {
+  position: relative;
+  top: 120px;
+  font-size: 52px;
+  font-family: sans-serif;
+  color: #CDD7F5;
+}
+.buttons{
+  margin-top: 12%;
+}
+.buttons button{
+  border: 2px solid black;
+  font-size: 25px;
+  text-align: center;
+  color: #CDD7F5;
+  background-color: rgba(17, 18, 19, 0.6);
+  border: none;
+  letter-spacing: 5px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.buttons button:hover {
+  background-color: #64FFDA;
+  color: black;
+}
+@media only screen and (max-width: 414px) {
+  .container {
+    width: 398px;
+    height: 700px;
+  }
+  #display {
+    margin-left: 12.2%;
+  }
+  .buttons{
+    margin-top: 22%;
+  }
+  .buttons button {
+    font-size: 23px;
+  }
+}
